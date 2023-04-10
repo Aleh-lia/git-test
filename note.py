@@ -52,6 +52,10 @@ class NoteApp:
         except FileNotFoundError:
             pass
 
+    def save_notes(self):
+        with open("notes.txt", "w") as f:
+            f.write("\n".join(self.notes))
+
 
 
 
