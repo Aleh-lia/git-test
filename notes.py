@@ -24,8 +24,8 @@ root = Tk()
 root.title("Мои заметки")
 
 # создание элементов интерфейса: метка для отображения заметок, поле для ввода новой заметки и кнопка для добавления заметки
-# notes_label = Label(root, text="")
-# notes_label.pack()
+notes_label = Label(root, text="")
+notes_label.pack()
 
 note_entry = Text(root)
 note_entry.pack()
