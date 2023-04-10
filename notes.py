@@ -1,5 +1,5 @@
-# from tkinter import *
-# from tkinter import messagebox
+from tkinter import *
+from tkinter import messagebox
 
 # функция для сохранения введенного текста в файл
 def save_note():
