@@ -52,13 +52,7 @@ class NoteApp:
         except FileNotFoundError:
             pass
 
-    def save_notes(self):
-        with open("notes.txt", "w") as f:
-            f.write("\n".join(self.notes))
 
-    def save_and_exit(self):
-        self.save_notes()
-        self.root.destroy()
 
 
 if __name__ == "__main__":
