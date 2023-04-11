@@ -56,9 +56,6 @@ class NoteApp:
         with open("notes.txt", "w") as f:
             f.write("\n".join(self.notes))
 
-    # def save_and_exit(self):
-    #     self.save_notes()
-    #     self.root.destroy()
 
 
 if __name__ == "__main__":
